@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class EmailApp {
 
-	public static void main(String[] args) {
+	private EmailApp() {
+	};
+
+	public static void main(String[] args) { // NOPMD It is the main method, no need for javadoc
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("Enter your first name: ");
